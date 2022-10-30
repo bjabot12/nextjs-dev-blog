@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
+html::-webkit-scrollbar {
+  width: 10px;
+  background: 273136;
+  
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgba(74, 104, 131);
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 1em;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,44 +23,77 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #273136;
 }
 
 p {
   margin: 15px 0;
   line-height: 1.8;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  /* color: #333; */
+  color: white;
 }
 
-img {
+.card img {
   width: 100%;
   border-radius: 10px;
 }
 
 header {
-  background: steelblue;
+  /* background: rgb(56, 155, 236); */
+  background-image: linear-gradient(to right, rgb(0, 110, 255) , rgb(74, 104, 131));
   color: #fff;
   padding: 5px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 header a {
   color: #fff;
 }
 
+.header {
+  display: flex;
+}
+
+.headerName {
+  text-align: center;
+  color: white;
+  padding: 4em;
+}
+
+.aboutSite {
+  box-shadow: 0 4px 8px 0 rgba(0, 110, 255);
+  color: white;
+  width: 30em;
+  float: right;
+  padding: 1em;
+  margin-left: 3em;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: white;
+}
+
 .container {
-  max-width: 768px;
+  max-width: 70%;
   margin: auto;
   overflow: auto;
   padding: 0 10px;
 }
 
+.container h2 {
+padding-top: .1em;
+}
+
 .btn {
   display: inline-block;
-  background: steelblue;
+  background: rgb(0, 110, 255);
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -67,24 +115,30 @@ header a {
 .btn-back {
   background: #f4f4f4;
   color: #000;
-  margin-bottom: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 .posts {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr); /* Sets how many posts per column */
   gap: 30px;
-  margin-top: 30px;
+  /* float: left; */
+
+  /* margin-top: -100px; */
 }
 
 .card {
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 110, 255);
+  width: 80%;
+  margin-bottom: 10px;
 }
 
 .card-page {
   padding: 15px 30px;
+  width: 100%;
+  color: white;
 }
 
 .post-title {
@@ -92,28 +146,43 @@ header a {
 }
 
 .post-date {
-  background: #f4f4f4;
   margin-bottom: 20px;
   padding: 3px 10px;
+  color: white;
 }
 
 .post-body ul,
 ol {
-  font-size: 110%;
+  /* font-size: 110%; */
   line-height: 2.3;
-  font-weight: bold;
-  margin: 10px 0;
+  /* font-weight: bold; */
+  margin: 10px 0px 10px 20px;
 }
 
 .post-body pre {
-  background: #f4f4f4;
+  background: #161c1f;
   padding: 20px;
   margin: 20px 0;
   line-height: 2.3;
+  color: white;
+  border-radius: 1em;
 }
 
 @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .card, .aboutSite{
+    width: 100%;
+  }
+
+  .headerName {
+    padding: 1em 0em 1em 0em;
+  }
+
+  .header{
+    font-size: small;
   }
 }

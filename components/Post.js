@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Button from '@mui/material/Button';
 
 export default function Post({ post }) {
   return (
@@ -12,7 +13,7 @@ export default function Post({ post }) {
       <p>{post.frontmatter.excerpt}</p>
 
       <Link href={`/blog/${post.slug}`}>
-        <a className='btn'>Read More</a>
+        <Button variant="contained">Read more</Button>
       </Link>
     </div>
   )

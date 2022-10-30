@@ -3,6 +3,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
 import Post from '../components/Post'
+import AboutSite from "../components/AboutSite"
+import HeaderName from '../components/HeaderName'
 import { sortByDate } from '../utils'
 
 export default function Home({ posts }) {
@@ -11,12 +13,15 @@ export default function Home({ posts }) {
       <Head>
         <title>Dev Blog</title>
       </Head>
+      <HeaderName/>
+      <AboutSite/>      
 
-      <div className='posts'>
+      <div className=' posts'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}
       </div>
+
     </div>
   )
 }
