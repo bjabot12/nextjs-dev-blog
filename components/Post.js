@@ -15,6 +15,7 @@ export default function Post({ post }) {
       <Link href={`/blog/${post.slug}`}>
         <Button variant="contained">Read more</Button>
       </Link>
+      {/* TODO: Add topics on posts */}
     </div>
   )
 }
