@@ -177,6 +177,10 @@ ol {
   margin: auto;
 }
 
+.post-body a {
+  color: #1976d2;
+}
+
 @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;

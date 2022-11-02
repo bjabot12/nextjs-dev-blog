@@ -28,7 +28,7 @@ This is only supposed to be a simple blog, so I had no other requirements. This 
 
 ## The tech stack
 
-As I had some experience with React.js I wanted to use it to build this website. I had also heard great things about Next.js, so I wanted to try that aswell. Next.js also comes with a easy-to-use hosting platform, [Vercel](https://vercel.com/). On Vercel, you connect to a GitHub-repo and press deploy on the dashboard. Vercel will then build, deploy and host the Next.js app for you. Easy as that.
+As I had some experience with [React.js](https://reactjs.org/) I wanted to use it to build this website. I had also heard great things about [Next.js](https://nextjs.org/), so I wanted to try that aswell. Next.js also comes with a easy-to-use hosting platform, [Vercel](https://vercel.com/). On Vercel, you connect to a GitHub-repo and press deploy on the dashboard. Vercel will then build, deploy and host the Next.js app for you. Easy as that.
 
 As for the blog posts, I quickly figured that markdown fit all my requirements. I read about MDX, which allows you to use JSX in your markdown content. You can do alot of things with MDX, so "upgrading" to it is definitely on the todo-list.
 
