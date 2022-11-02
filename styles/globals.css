@@ -55,6 +55,10 @@ header a {
   color: #fff;
 }
 
+header h2 {
+  cursor: pointer;
+}
+
 .header {
   display: flex;
 }
@@ -168,6 +172,11 @@ ol {
   border-radius: 1em;
 }
 
+.post-body img {
+  width: 50%;
+  margin: auto;
+}
+
 @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
@@ -185,4 +194,9 @@ ol {
   .header{
     font-size: small;
   }
+
+  .post-body img, pre {
+    display: none;
+  }
+
 }

@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div className='container header'>
         <Link href='/' passHref>
-          <h2>Developer Blog</h2>
+          <h2>Dev Blog</h2>
         </Link>
         <div style={{paddingTop:".1em", marginLeft: "auto", align:"right"/*textAlign:"right", marginRight:"3em"*/}}>
           <a href="https://github.com/bjabot12" target="_blank" rel="noopener noreferrer">
