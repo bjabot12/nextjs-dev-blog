@@ -199,8 +199,20 @@ ol {
     font-size: small;
   }
 
-  .post-body img, pre {
-    display: none;
+  .post-body img {
+    width: 100%; 
   }
 
+  .container {
+    max-width: 95%;
+  }
+
+  .card-page {
+    padding: 5px 15px;
+  }
+
+}
+
+code {
+  word-wrap: break-word;
 }

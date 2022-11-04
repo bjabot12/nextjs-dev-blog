@@ -9,7 +9,7 @@ cover_image: '/images/posts/nextjs.jpeg'
 # My first blog post
 
 
-<small>!Please read on Desktop screen to view all images and code snippets!</small>
+<small>!Please read on Desktop screen to view all code snippets!</small>
 \
 &nbsp;
 
