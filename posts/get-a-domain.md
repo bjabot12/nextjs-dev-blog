@@ -31,12 +31,12 @@ As a bonus I wanted to update the favicon.ico, so that we don't free advertising
 Before:
 \
 &nbsp;
-![Image of title](/images/posts/post2/before2.PNG)
+![Image of title](/images/posts/post2/before2.png)
 
 After:
 \
 &nbsp;
-![Image of title](/images/posts/post2/after2.PNG)
+![Image of title](/images/posts/post2/after2.png)
 
 \
 &nbsp;
