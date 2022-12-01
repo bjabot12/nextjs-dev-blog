@@ -11,7 +11,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>Dev Blog</title>
+        <title>Bjarte Botnevik</title>
       </Head>
       <HeaderName/>
       <AboutSite/>      

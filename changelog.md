@@ -1,9 +1,19 @@
-## [1.0.1] - x.11.2022
+## [1.0.2] - 02.11.2022
  
 ### Added
-- First release of the blog.
+
 ### Changed
-- Margins and padding on mobile view. 
+ - Added a new domain
+ - Changed the favicon.ico
+### Fixed
+
+## [1.0.1] - 08.11.2022
+ 
+### Added
+- Added new blogpost about getting a domain
+### Changed
+- Margins and padding on mobile view.
+- Changed the favicon.ico 
 ### Fixed
 
 ## [1.0.0] - 02.11.2022

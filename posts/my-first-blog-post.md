@@ -2,7 +2,7 @@
 title: 'Next.js developer blog'
 date: 'October 31, 2022'
 excerpt: 'Welcome to my blog!'
-cover_image: '/images/posts/nextjs.jpeg'
+cover_image: '/images/posts/post1/nextjs.jpeg'
 ---
 
 
@@ -34,7 +34,7 @@ As for the blog posts, I quickly figured that markdown fit all my requirements. 
 
 Next.js can automatically build pages, based on the markdown files. Using the title of the markdown files, it creates a path and page for the user to read. The title of this post is "my-first-blog-post". Next.js automatically creates the page for this post, and adds it to the path. All I have to do for my next post is to write another markdown file in the same format, and it will then be ready on the blog.
 
-![Image of title](/images/posts/title.png)
+![Image of title](/images/posts/post1/title.png)
 
 Therefore, Next.js is excellent to use when writing a blog.
 \
@@ -46,7 +46,7 @@ Therefore, Next.js is excellent to use when writing a blog.
 
 The template I used was really helpful so I did not come across many errors. The one error I got was when adding new blog posts. It occurred for the first time when I added a new blog post to test the list of posts. For some reason the error disappeared if I restarted the development server. The error is shown below.
 
-![Image of error](/images/posts/error.png)
+![Image of error](/images/posts/post1/error.png)
 
 After I spent some time troubleshooting and googling I found that adding the code snippet below in the <code>next.config.js</code> had worked for a lot of people, so I tried it myself with big hopes.
 
