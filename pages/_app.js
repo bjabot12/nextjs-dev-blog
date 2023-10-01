@@ -1,5 +1,6 @@
 import * as React from "react"
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -9,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <main className='container'>
         <Component {...pageProps} />
       </main>
+      <Footer />
     </>
   )
 }
