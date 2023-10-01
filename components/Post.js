@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Button from '@mui/material/Button';
+import Footer from "../components/Footer"
 
 export default function Post({ post }) {
   return (
@@ -17,5 +18,6 @@ export default function Post({ post }) {
       </Link>
       {/* TODO: Add topics on posts */}
     </div>
+
   )
 }

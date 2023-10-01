@@ -1,6 +1,6 @@
 ---
 title: 'Get a domain for the blog'
-date: 'November 8, 2022'
+date: 'December 1, 2022'
 excerpt: 'I created a domain for my blog, welcome to bjartebotnevik.com!'
 cover_image: '/images/posts/post2/page_header.jpg'
 ---
