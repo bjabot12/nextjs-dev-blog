@@ -23,7 +23,8 @@ html::-webkit-scrollbar-track {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #273136;
+  /* background: #273136; */
+  background: rgb(15, 15, 15);
 }
 
 p {
@@ -77,7 +78,8 @@ header h2 {
   margin-left: 3em;
   border-radius: 10px;
   margin-bottom: 10px;
-  background: #20282c;
+  /* background: #20282c; */
+  background: rgb(30, 30, 30);
 }
 
 h3 {
@@ -136,7 +138,8 @@ padding-top: .1em;
   border-radius: 10px;
   width: 80%;
   margin-bottom: 10px;
-  background: #20282c;
+  /* background: #20282c; */
+  background: rgb(30, 30, 30);
 }
 
 .card-page {
