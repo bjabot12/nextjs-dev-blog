@@ -6,6 +6,8 @@ import Post from '../components/Post'
 import AboutSite from "../components/AboutSite"
 import HeaderName from '../components/HeaderName'
 import { sortByDate } from '../utils'
+import { Analytics } from '@vercel/analytics/react';
+ 
 
 export default function Home({ posts }) {
   return (
@@ -21,6 +23,7 @@ export default function Home({ posts }) {
           <Post key={index} post={post} />
         ))}
       </div>
+      <Analytics />
     </div>
   )
 }
