@@ -14,7 +14,7 @@ export default function PostPage({
     <>
       <Link href='/'>
         {/* <Button style={{margin: "1em 1em 1em 0em"}} variant="contained">Go back</Button> */}
-        <button class="btn">Go Back</button>
+        <button className="btn">Go Back</button>
       </Link>
       <div className='card card-page'>
         <h1 className='post-title'>{title}</h1>
