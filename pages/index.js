@@ -15,7 +15,7 @@ export default function Home({ posts }) {
       <Head>
         <title>Bjarte Botnevik</title>
       </Head>
-      <HeaderName/>
+      {/* <HeaderName/> */}
       <AboutSite/>      
 
       <div className=' posts'>

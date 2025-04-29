@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import Footer from "../components/Footer"
 
 export default function Post({ post }) {
@@ -14,7 +14,7 @@ export default function Post({ post }) {
       <p>{post.frontmatter.excerpt}</p>
 
       <Link href={`/blog/${post.slug}`}>
-        <Button variant="contained">Read more</Button>
+        <button class="btn">Read more</button>
       </Link>
       {/* TODO: Add topics on posts */}
     </div>
