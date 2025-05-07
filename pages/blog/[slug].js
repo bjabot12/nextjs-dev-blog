@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import marked from 'marked'
+import { marked } from 'marked';
 import Link from 'next/link'
 import Button from '@mui/material/Button';
 
@@ -13,7 +13,8 @@ export default function PostPage({
   return (
     <>
       <Link href='/'>
-        <Button style={{margin: "1em 1em 1em 0em"}} variant="contained">Go back</Button>
+        {/* <Button style={{margin: "1em 1em 1em 0em"}} variant="contained">Go back</Button> */}
+        <button className="btn">Go Back</button>
       </Link>
       <div className='card card-page'>
         <h1 className='post-title'>{title}</h1>
